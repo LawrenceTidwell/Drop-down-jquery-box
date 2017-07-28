@@ -1,0 +1,76 @@
+body {
+  background: #80aaff;
+  background: linear-gradient(to right, #80aaff , #008080);
+  font-family: 'Roboto', sans-serif;
+}
+.toggler {
+  width: 40%;
+  margin: 0 auto;
+  margin-top: 5%;
+  border-radius: 6px;
+}
+.header {
+  background: url(http://www.lawrencetidwell.com/images/mountain.jpg)top right no-repeat;
+  height: 80px;
+}
+#flip {
+  height: 220px;
+}
+
+#panel, #flip {
+    padding: 5px;
+    text-align: center;
+    background-color: #f2f2f2;
+}
+
+#panel {
+    padding: 50px;
+    display: none;
+}
+#close {
+  text-decoration: none;
+  border: none;
+  background-color: #F2F2F2;
+  font-size: .8em;
+  color: #999;
+  cursor: pointer;
+}
+#submit {
+  text-decoration: none;
+  border: none;
+  background-color: #F2F2F2;
+  font-size: .8em;
+  color: #6d8be8;
+  cursor: pointer;
+}
+button:focus {
+  outline: 0;
+}
+.chevron {
+  color: #c2c2c2;
+  position: inherit;
+}
+.chevron:hover {
+  color: #4f4f4f;
+}
+.chevron:active, .chevron:focus, .chevron:target {
+  visibility: hidden;
+  opacity: 0;
+}
+.quote {
+  position: inherit;
+  font-weight: bold;
+  color: #32465F;
+  line-height: 40px
+}
+img {
+  width: 40px;
+  border-radius: 30px;
+  border: 4px solid #f2f2f2;
+  position: inherit;
+  margin-top: 60px
+}
+.greeting {
+  color: #32465F;
+  font-weight: 500;
+}
