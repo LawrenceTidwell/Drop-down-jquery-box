@@ -1,0 +1,10 @@
+$(document).ready(function(){
+  $("#flip").click(function(){
+    $("#panel").slideDown("slow");
+    $(".chevron").hide();
+  });
+  $("#close").click(function(){
+    $("#panel").slideUp("slow");
+    $(".chevron").show("slow");
+  });
+});
